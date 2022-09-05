@@ -1,0 +1,76 @@
+body {
+  line-height: 1;
+}
+.App {
+  text-align: center;
+}
+
+.home-container {
+  position: relative;
+}
+.form-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  left: 0px;
+}
+.form-container form {
+  flex-basis: 400px;
+}
+.form-container .form-content {
+  padding: 20px;
+  border: 2px solid green;
+  background-color: #ffffff88;
+}
+.slick-slide img {
+  width: 100%;
+  height: 100%;
+  max-height: 915px;
+}
+.slick-prev {
+  left: 80px;
+  z-index: 100;
+}
+.slick-next {
+  right: 80px;
+  z-index: 100;
+}
+.slick-prev:before, 
+.slick-next:before {
+  font-size: 35px;
+}
+.custom-control-input:checked~.custom-control-label::before {
+  color: #fff;
+  border-color: #157d2d;
+  background-color: #28a745;
+}
+.custom-control-input:focus:not(:checked)~.custom-control-label::before {
+  border-color: #157d2d;
+  box-shadow: 0 0 0 0.2rem #28a74561;
+}
+.custom-control-input:not(:disabled):active~.custom-control-label::before {
+  background-color: #28a74547;
+  border-color: #28a74547;
+}
+.custom-control-label::before,
+.custom-control-label::after {
+  top: 0.1rem;
+}
+.form-control {
+  border-radius: 0px;
+  border: 1px solid #157d2d;
+}
+.form-control:focus {
+  border-color: #157d2d;
+  box-shadow: 0 0 0 0.2rem #28a74561;
+}
+#trip_plan_btn {
+  border-radius: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 2px solid #fafafa;
+}

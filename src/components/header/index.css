@@ -1,0 +1,13 @@
+.home-nav-link {
+    font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fafafae0 !important;
+}
+.home-nav-link:hover,
+.home-nav-link.active {
+    color: #fafafa !important;
+}
+.home-nav-link span {
+    font-size: 20px;
+}
